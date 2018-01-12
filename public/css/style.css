@@ -62,3 +62,37 @@ footer {
     background: #1f1f1f;
     margin-top: 30px;
 }
+
+
+/* Slider */
+
+.item-slider {
+    height: 700px;
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative;
+    font-family: 'Fjalla One';
+}
+
+.item-slider .caption {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    text-align: right;
+    width: 320px;
+    text-transform: uppercase;
+}
+
+.item-slider .caption h4 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.item-slider .caption p {
+    font-size: 70px;
+    margin-top: 0px;
+}
+
+
+
