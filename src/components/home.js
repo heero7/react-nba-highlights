@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 // COMPONENTS
 import FeaturedSlider from './featured';
+import Subscriptions from './subs';
 
 const URL_HOME = 'http://localhost:3004/home';
 
@@ -27,6 +28,7 @@ class Home extends Component {
         return (
             <div>
                 <FeaturedSlider slides={this.state.home.slider} />
+                <Subscriptions />
             </div>
         )
     }
