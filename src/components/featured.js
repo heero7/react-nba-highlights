@@ -12,12 +12,10 @@ const sliderSettings = {
 }
 
 const generateSlides = ({slides}) => {
-    console.log(slides)
     if (slides) {
         return (
             <Slider {...sliderSettings}>
                 {slides.map((slide) => {
-                    console.log(slide.cover);
                     return (
                         <div key={slide.id} className="item-slider"
                             style={{background:`url(/images/covers/${slide.cover})`}}

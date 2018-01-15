@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // COMPONENTS
 import FeaturedSlider from './featured';
 import Subscriptions from './subs';
+import Blocks from './blocks';
 
 const URL_HOME = 'http://localhost:3004/home';
 
@@ -29,6 +30,7 @@ class Home extends Component {
             <div>
                 <FeaturedSlider slides={this.state.home.slider} />
                 <Subscriptions />
+                <Blocks blocks={this.state.home.blocks}/>
             </div>
         )
     }
