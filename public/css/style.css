@@ -96,3 +96,20 @@ footer {
 
 
 
+/* Subscribe */
+
+.subscribe-panel .error {
+    display: none;
+    color: #f44336;
+}
+
+.subscribe-panel .success {
+    display: none;
+    color: #4caf50;
+}
+
+.subscribe-panel .error.show,
+.subscribe-panel .success.show {
+    display: block;
+}
+
